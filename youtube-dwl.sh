@@ -2,6 +2,8 @@
 
 # Using youtube-dl to download the audiofile from youtube.
 # Using ffmpeg to convert the file.
+# IMPORTANT!!!! MAKE SURE THAT YOU DON'T USE A LINK FROM A PLAYLIST /
+# BECAUSE THEN THE song_title VARIABLE DOESN'T GET ANY VALUE ASSIGNED.
 
 echo "Youtube URL: "
 read url
